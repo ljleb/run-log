@@ -1,0 +1,39 @@
+# Gradle / Android build output
+.gradle/
+**/build/
+build/
+
+# Local Android SDK configuration
+local.properties
+
+# IDE files
+.idea/
+*.iml
+
+# Android Studio / profiling
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Locally downloaded build tools used for this project
+.tools/
+
+# Nix build outputs / direnv
+result
+result-*
+.direnv/
+
+# Signing keys and local signing configuration
+*.jks
+*.keystore
+keystore.properties
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
